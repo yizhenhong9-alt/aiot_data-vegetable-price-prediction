@@ -7,6 +7,12 @@
 
 ---
 
+## Streamlit app
+網址: 
+**https://aiotdata-vegetable-price-prediction-group17.streamlit.app/** 
+
+---
+
 ## 📋 目錄 | Table of Contents
 
 - [專案概述](#專案概述)
