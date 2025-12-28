@@ -1,9 +1,9 @@
-# 蔬菜價格預測系統 🥬
-## Vegetable Price Prediction System
+# 蔬菜價格預測與購買建議系統 🥬
+## Vegetable Price Prediction and Shopping Recommendation System
 
-一個基於機器學習的蔬菜價格預測平台，整合市場交易數據和氣象資料，使用 LightGBM 模型進行價格預測。本系統提供 Web UI 介面，讓用戶能夠查看預測結果、歷史數據和相關食譜。
+一個基於機器學習的蔬菜價格預測與購買建議平台，整合市場交易數據和氣象資料，使用 LightGBM 模型進行精準價格預測。本系統提供 Web UI 介面，幫助消費者了解蔬菜價格走勢、獲得購買建議，並推薦相應的食譜。
 
-**A machine learning-based vegetable price prediction platform that integrates market trading data with weather information using LightGBM models for accurate price forecasting.**
+**A machine learning-based vegetable price prediction and shopping recommendation platform that integrates market trading data with weather information to help consumers make informed purchasing decisions with LightGBM models.**
 
 ---
 
@@ -28,10 +28,10 @@
 本專案旨在透過整合**市場交易數據**（價格、交易量等）和**氣象數據**（溫度、濕度、降雨量等），建立準確的蔬菜價格預測模型。
 
 **主要目標：**
-- 預測不同蔬菜的未來價格趨勢
-- 幫助農民和商人進行銷售決策
-- 提供價格波動的科學依據
-- 減少市場信息不對稱
+ 預測蔬菜價格走勢，幫助消費者選擇最佳購買時機
+ 提供個性化的購買建議，讓消費者買得聰明更省錢
+ 透過科學的數據分析降低盲目購物的成本
+ 根據價格推薦合適的食譜，優化家庭飲食預算
 
 **核心特點：**
 - ✅ 多蔬菜支持（甘藍、小白菜、芥藍、芹菜、茼蒿、菠菜）
@@ -45,11 +45,11 @@
 ## ⚡ 功能特性 | Features
 
 ### 核心功能
-1. **價格預測**：基於歷史數據和氣象信息的精準價格預測
-2. **趨勢分析**：可視化展示價格變化趨勢
-3. **歷史查詢**：查看過去的預測結果和實際價格
-4. **食譜推薦**：根據價格低的蔬菜推薦食譜
-5. **模型性能**：實時展示模型的準確度指標（RMSE、MAE、R²）
+1. **價格預測**：預測未來蔬菜價格走勢，幫助把握購買時機
+2. **購買建議**：根據當前價格和歷史趨勢提供智慧購買建議
+3. **趨勢分析**：可視化展示價格變化趨勢，一目了然
+4. **食譜推薦**：推薦當季便宜蔬菜的美味食譜，省錢又健康
+5. **歷史對比**：查看歷史價格和預測準確度，增進購買信心
 
 ### 支持蔬菜
 - 🥬 **甘藍 (Cabbage)**
